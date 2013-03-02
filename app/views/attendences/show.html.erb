@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @attendence.name %>
+</p>
+
+<p>
+  <b>Collegestring:</b>
+  <%= @attendence.collegestring %>
+</p>
+
+
+<%= link_to 'Edit', edit_attendence_path(@attendence) %> |
+<%= link_to 'Back', attendences_path %>
